@@ -1,0 +1,89 @@
+DOSSIÊ ACADÊMICO DE AUDITORIA — TOTVS S.A.
+EXERCÍCIO ENCERRADO EM 31/12/2025
+DOCUMENTAÇÃO DA PROGRAMAÇÃO NO GOOGLE COLAB
+BASE SINTÉTICA DE INTANGÍVEIS E TESTES DO PT 530 — AMOSTRAGEM EM AUDITORIA
+
+1. LINK DO NOTEBOOK NO GOOGLE COLAB
+
+[https://colab.research.google.com/drive/1veBRaVLTTlVaFB1TuOENinT2RI0fb-Zu?usp=sharing]
+
+O notebook contém os procedimentos computacionais desenvolvidos para gerar, verificar e analisar uma base sintética de registros de ativos intangíveis, no contexto do dossiê acadêmico de auditoria das demonstrações contábeis consolidadas da TOTVS S.A. de 2025.
+
+Para acessá-lo, abrir o link acima. Para executar as células, poderá ser necessário criar uma cópia no Google Drive ou abrir uma sessão do Colab, instalar bibliotecas e disponibilizar os arquivos de entrada conforme as instruções do notebook.
+
+2. OBJETIVO DA PROGRAMAÇÃO
+
+A programação em Python foi utilizada para atender à exigência de construção de uma base sintética com, no mínimo, 500.000 registros analíticos referentes à rubrica de maior relevância quantitativa do ativo consolidado. A rubrica selecionada foi o Ativo Intangível, divulgado com saldo de R$ 3.904.253 mil em 31/12/2025. Desse total, R$ 737.114 mil correspondem a intangíveis identificáveis, sem goodwill, e R$ 3.167.139 mil correspondem a goodwill, mantido em controle separado por unidade geradora de caixa.
+
+Os dados foram gerados exclusivamente para fins didáticos. Não representam registros analíticos reais, lançamentos extraídos dos sistemas da TOTVS nem evidências obtidas por acesso à contabilidade interna.
+
+3. ESTRUTURA DA BASE GERADA
+
+A base principal possui 500.000 componentes sintéticos, distribuídos entre seis classes:
+- Software: 155.000 registros;
+- Ativos de desenvolvimento: 140.000 registros;
+- Carteira de clientes: 120.000 registros;
+- Marcas e patentes: 35.000 registros;
+- Outros intangíveis: 35.000 registros;
+- Direito de uso de licenças: 15.000 registros.
+
+Cada registro possui identificador único, classe, identificador de projeto e de UGC sintéticos, data de disponibilidade, vida útil em meses, custo, amortização acumulada, saldo líquido, valor original, indicador de erro e identificação da natureza sintética do dado. Valores monetários estão armazenados em centavos para evitar problemas de arredondamento.
+
+4. GERAÇÃO E VALIDAÇÃO INICIAL
+
+O script gerar_e_testar.py foi destinado à geração reproduzível da base. O script auditar_base.py foi utilizado para conferir integridade e consistência de campos e saldos.
+
+Resultados obtidos na execução informada e documentada no projeto:
+- Registros: 500.000;
+- Identificadores únicos: 500.000;
+- Identificadores duplicados: 0;
+- Valores ausentes nas 12 variáveis: 0;
+- Inconsistências encontradas pelo validador na base original: 0.
+
+O somatório sintético, em R$ mil, foi: custo de intangíveis sem goodwill de 2.196.074, amortização acumulada de 1.458.960 e saldo líquido de 737.114. Acrescentado o goodwill controlado separadamente (3.167.139), obtém-se 3.904.253, igual ao saldo divulgado. Essa conciliação foi obtida por construção matemática da simulação e não constitui validação independente de registros reais da companhia.
+
+5. AMOSTRAGEM — PT 530
+
+Foi efetuada uma seleção aleatória estratificada proporcional por classe, com semente 2025, totalizando 300 componentes:
+- Software: 93;
+- Ativos de desenvolvimento: 84;
+- Carteira de clientes: 72;
+- Marcas e patentes: 21;
+- Outros: 21;
+- Direito de uso de licenças: 9.
+
+Foram aplicadas verificações de consistência entre custo, amortização acumulada e saldo líquido; vida útil positiva; amortização não superior ao custo; e validade e corte das datas de disponibilidade. Na amostra de 300 registros não foram identificadas exceções segundo essas regras.
+
+A amostra de 300 registros corresponde a 0,06% da população. Seu tamanho foi utilizado preliminarmente para demonstrar o procedimento de seleção: não foi demonstrada, apenas com esse resultado, suficiência estatística em relação ao risco de amostragem ou à materialidade para execução do PT 320.
+
+6. TESTES DE EXCEÇÕES CONTROLADAS
+
+Em uma cópia separada da base foram introduzidas 100 inconsistências didáticas, com um registro de alterações utilizado como gabarito:
+- 56 registros com amortização acumulada superior ao custo;
+- 44 registros com vida útil igual a zero.
+
+O script testar_excecoes_pt530.py foi utilizado para verificar a detecção desses cenários. Segundo os resultados documentados:
+- No teste automatizado de toda a população adulterada, 100 dos 100 registros modificados foram detectados;
+- Não houve falso positivo nem falso negativo nos tipos específicos de erro programados;
+- A amostra de 300 registros não continha os elementos adulterados e, portanto, apresentou zero exceções;
+- As alterações monetárias sintéticas no campo de amortização somaram R$ 98.508,58; os erros de vida útil não foram monetizados.
+
+O teste integral foi um censo automatizado para duas regras específicas. Não equivale a uma auditoria completa da população, e o resultado da amostra não demonstra inexistência de erro na população. Os valores de erros são fictícios e não indicam distorção efetiva nas demonstrações da TOTVS.
+
+7. ARQUIVOS RELACIONADOS
+
+Códigos: gerar_e_testar.py; auditar_base.py; testar_excecoes_pt530.py.
+Bases: intangiveis_sinteticos_500000.csv (original) e base_adulterada_500000.csv (cópia com erros).
+Evidências de testes: registro_alteracoes.csv; resultado_teste_censo.csv; resultado_amostra_300.csv; metricas.json.
+Documentação complementar: README, dicionário de variáveis, planilha de conciliação e PT 530.
+
+Caso os arquivos de dados excedam o limite de upload do GitHub, seus links de acesso devem ser informados separadamente no README do repositório. Os caminhos locais da sessão Colab não são links públicos de download.
+
+8. LIMITAÇÕES E INTERPRETAÇÃO
+
+A programação foi desenvolvida sem acesso ao razão contábil, cadastro real de ativos, contratos, laudos, relatórios de impairment ou sistemas internos da TOTVS. As vidas úteis, a distribuição dos registros e os cenários de erro são sintéticos. A ausência de exceções nos testes iniciais e a detecção integral dos erros injetados apenas avaliam a consistência e o funcionamento dos procedimentos programados dentro de suas premissas.
+
+O notebook fornece evidências de execução acadêmica e reprodutibilidade dos algoritmos, mas não substitui evidências de auditoria obtidas diretamente de fontes independentes ou de documentação contábil e operacional da companhia.
+
+REFERÊNCIA DOCUMENTAL
+TOTVS S.A. Demonstrações Financeiras Padronizadas (DFP), 31/12/2025, demonstrações consolidadas, Balanço Patrimonial e Nota Explicativa 15 — Intangível. Os resultados computacionais foram obtidos em simulação didática e devem ser vinculados aos respectivos códigos e arquivos de saída.
