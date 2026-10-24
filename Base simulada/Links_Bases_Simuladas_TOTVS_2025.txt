@@ -1,0 +1,12 @@
+DOSSIÊ ACADÊMICO DE AUDITORIA — TOTVS S.A. — EXERCÍCIO 2025
+LINK PARA DOWNLOAD DAS BASES SINTÉTICAS
+
+https://drive.google.com/drive/folders/1c8tt322cuceXiV2l58j_-zn0OAQaGS9O?usp=sharing
+
+1. BASE SINTÉTICA ORIGINAL (500.000 registros)
+Arquivo: intangiveis_sinteticos_500000.csv
+
+2. BASE SINTÉTICA ADULTERADA (100 cenários de erro; testes do PT 530)
+Arquivo: base_adulterada_500000.csv
+
+Bases inteiramente sintéticas, calibradas aos saldos públicos da Nota Explicativa 15 da DFP 2025 da TOTVS S.A.; não são registros internos reais.
