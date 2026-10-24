@@ -1,0 +1,101 @@
+id_componente;classe;custo_centavos;amortizacao_acumulada_centavos;saldo_liquido_centavos;T01_diferenca_aritmetica;T02_vida_util_nao_positiva;T03_amortizacao_superior_custo;T04_data_invalida;T05_data_futura;excecao_detectada;erro_efetivamente_inserido;classificacao
+INT0003689;Software;196468;196568;5070;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0015197;Software;1099845;1099945;631767;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0030193;Software;1376098;1376198;605048;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0030817;Software;547189;547289;518663;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0033911;Software;474716;474816;139107;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0039925;Software;262612;262712;235156;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0042867;Software;1449557;1449657;1117729;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0046127;Software;700722;700822;18082;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0055752;Software;875026;852446;22580;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0067224;Software;485846;473309;12537;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0067375;Software;192668;192768;4972;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0071668;Software;608575;508596;99979;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0080717;Software;686287;686387;374339;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0089147;Software;443030;443130;11433;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0089222;Software;924927;860854;64073;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0094009;Software;112895;112995;89228;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0098012;Software;84636;82452;2184;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0100266;Software;495054;454928;40126;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0100940;Software;93456;28680;64776;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0101189;Software;459205;459305;11850;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0106410;Software;714984;696534;18450;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0112979;Software;402894;402994;10397;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0122659;Software;986442;986542;508026;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0130193;Software;599559;599659;15472;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0134628;Software;252026;29962;222064;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0146687;Software;170753;170853;128272;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0157253;Marcas e patentes;141883;141983;10106;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0159455;Marcas e patentes;74291;74391;5292;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0163030;Marcas e patentes;386324;265670;120654;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0165083;Marcas e patentes;431565;431665;203955;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0171722;Marcas e patentes;398998;370578;28420;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0174745;Marcas e patentes;534733;534833;298180;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0175763;Marcas e patentes;347327;347427;102590;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0177324;Marcas e patentes;190997;107454;83543;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0182297;Marcas e patentes;598495;598595;42630;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0190359;Carteira de clientes;1535782;1535882;66055;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0199406;Carteira de clientes;600136;411711;188425;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0199918;Carteira de clientes;99019;1712;97307;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0201686;Carteira de clientes;682053;652717;29336;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0204707;Carteira de clientes;1107868;1107968;47651;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0211661;Carteira de clientes;493595;493695;21230;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0233925;Carteira de clientes;697502;697602;694182;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0241660;Carteira de clientes;606454;580370;26084;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0243884;Carteira de clientes;1117500;1069435;48065;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0248158;Carteira de clientes;708909;678418;30491;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0251186;Carteira de clientes;187825;5706;182119;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0261999;Carteira de clientes;523225;523325;259757;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0262815;Carteira de clientes;1191366;1191466;415033;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0269769;Carteira de clientes;173396;173496;159062;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0272253;Carteira de clientes;479591;479691;20628;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0280010;Carteira de clientes;280258;268203;12055;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0287052;Carteira de clientes;1754816;1679340;75476;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0292598;Carteira de clientes;255252;166109;89143;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0294199;Carteira de clientes;479594;479694;288339;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0294677;Carteira de clientes;883255;883355;37990;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0295571;Carteira de clientes;944086;944186;81284;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0299421;Carteira de clientes;112593;112693;4843;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0306017;Carteira de clientes;509411;509511;21911;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0309395;Carteira de clientes;868778;868878;676856;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0309971;Carteira de clientes;744730;744830;602524;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0337219;Ativos de desenvolvimento;87816;87916;52522;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0340707;Ativos de desenvolvimento;158227;158327;94633;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0341615;Ativos de desenvolvimento;87000;87100;52034;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0342858;Ativos de desenvolvimento;223285;89741;133544;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0345948;Ativos de desenvolvimento;178142;8058;170084;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0352972;Ativos de desenvolvimento;252706;101566;151140;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0354988;Ativos de desenvolvimento;240167;96527;143640;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0364066;Ativos de desenvolvimento;130429;52421;78008;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0368276;Ativos de desenvolvimento;357824;143815;214009;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0371910;Ativos de desenvolvimento;214741;77147;137594;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0384533;Ativos de desenvolvimento;10734;10834;7430;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0389376;Ativos de desenvolvimento;96026;38594;57432;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0390699;Ativos de desenvolvimento;128536;128636;76876;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0395431;Ativos de desenvolvimento;134641;134741;115589;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0399336;Ativos de desenvolvimento;103066;41423;61643;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0408576;Ativos de desenvolvimento;34145;12116;22029;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0413934;Ativos de desenvolvimento;280581;112770;167811;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0414479;Ativos de desenvolvimento;256062;256162;153147;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0414855;Ativos de desenvolvimento;288780;288880;190760;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0418519;Ativos de desenvolvimento;63153;63253;47393;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0423420;Ativos de desenvolvimento;158356;63645;94711;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0426934;Ativos de desenvolvimento;159334;58246;101088;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0430566;Ativos de desenvolvimento;54242;21800;32442;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0434643;Ativos de desenvolvimento;237837;237937;142247;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0436174;Ativos de desenvolvimento;152573;49290;103283;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0441726;Ativos de desenvolvimento;87573;6970;80603;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0442585;Ativos de desenvolvimento;155444;155544;92969;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0444652;Ativos de desenvolvimento;72367;29085;43282;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0444698;Ativos de desenvolvimento;75384;9123;66261;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0447700;Ativos de desenvolvimento;97172;39055;58117;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0465741;Outros;347051;347151;0;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0471124;Outros;114328;114328;0;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0476325;Outros;441125;441225;280175;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0479108;Outros;130374;130374;0;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0483073;Outros;136062;136162;24387;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0488935;Outros;150881;150981;0;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0489617;Outros;284282;284382;0;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0491354;Outros;245581;1756;243825;False;True;False;False;False;True;True;Verdadeiro positivo
+INT0496187;Outros;42786;42886;0;True;False;True;False;False;True;True;Verdadeiro positivo
+INT0497491;Outros;158614;158714;30387;True;False;True;False;False;True;True;Verdadeiro positivo

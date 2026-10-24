@@ -1,0 +1,48 @@
+{
+  "natureza": "SIMULAÇÃO DIDÁTICA — não são registros da TOTVS",
+  "censo": {
+    "registros": 500000,
+    "erros_inseridos_na_selecao": 100,
+    "excecoes_sinalizadas": 100,
+    "verdadeiros_positivos": 100,
+    "falsos_negativos": 0,
+    "falsos_positivos": 0,
+    "testes_por_regra": {
+      "T01_diferenca_aritmetica": 56,
+      "T02_vida_util_nao_positiva": 44,
+      "T03_amortizacao_superior_custo": 56,
+      "T04_data_invalida": 0,
+      "T05_data_futura": 0
+    }
+  },
+  "amostra": {
+    "registros": 300,
+    "erros_inseridos_na_selecao": 0,
+    "excecoes_sinalizadas": 0,
+    "verdadeiros_positivos": 0,
+    "falsos_negativos": 0,
+    "falsos_positivos": 0,
+    "testes_por_regra": {
+      "T01_diferenca_aritmetica": 0,
+      "T02_vida_util_nao_positiva": 0,
+      "T03_amortizacao_superior_custo": 0,
+      "T04_data_invalida": 0,
+      "T05_data_futura": 0
+    }
+  },
+  "amostra_por_classe": {
+    "Ativos de desenvolvimento": 84,
+    "Carteira de clientes": 72,
+    "Direito de uso de licenças": 9,
+    "Marcas e patentes": 21,
+    "Outros": 21,
+    "Software": 93
+  },
+  "tipos_de_erros": {
+    "AMORTIZACAO_SUPERIOR_AO_CUSTO": 56,
+    "VIDA_UTIL_ZERO": 44
+  },
+  "amortizacao_adulterada_variacao_rs": 98508.58,
+  "materialidade_execucao_rs": 36469230,
+  "nota": "A variação de amortização é o efeito dos erros inseridos no campo; não é projeção estatística nem distorção real. Erros de vida útil não são monetizados sem novo modelo de amortização."
+}
