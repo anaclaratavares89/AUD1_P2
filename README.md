@@ -32,9 +32,9 @@ A pasta pública informada é Códigos. Como a listagem atual do GitHub não pô
 ├── README.md                        
 ├── Matriz_de_Cobertura_das_Normas_TOTVS_2025.docx 
 ├──Códigos/ 
-├ gerar_e_testar.py 
-├ auditar_base.py 
-│testar_excecoes_pt530.py 
+│   ├── gerar_e_testar.py
+│   ├── auditar_base.py
+│   ├── testar_excecoes_pt530.py
 ├──Papéis_de_Trabalho/                
 │PT_EC_Estrutura_Conceitual_TOTVS_2025.pdf 
 │PT_200_Objetivos_Gerais_TOTVS_2025.pdf 
@@ -58,7 +58,7 @@ A pasta pública informada é Códigos. Como a listagem atual do GitHub não pô
 │    
 │    
 └── Bases_simuladas                 ←  
-    └── LINKS_Bases_Simuladas.txt ```
+    └── LINKS_Bases_Simuladas.txt```
 
 A matriz de cobertura é o índice para localizar qual papel documenta cada NBC TA; a presença efetiva e a versão final dos arquivos precisam ser conferidas antes da entrega.  
 
