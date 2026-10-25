@@ -29,32 +29,32 @@ As análises devem ser interpretadas conforme o status informado em cada PT:
 A pasta pública informada é Códigos. Como a listagem atual do GitHub não pôde ser conferida, a organização abaixo é proposta de padronização, não descrição verificada das pastas existentes. Se os arquivos estiverem em diretórios diferentes, ajuste os caminhos nos links. 
 
 AUD1_P2/ 
-├── README.md                         ← este documento  
+├── README.md                        
 ├── Matriz_de_Cobertura_das_Normas_TOTVS_2025.docx 
 ├──Códigos/ 
-│   ├── gerar_e_testar.py 
-│   ├── auditar_base.py 
-│   └── testar_excecoes_pt530.py 
+├ gerar_e_testar.py 
+├ auditar_base.py 
+│testar_excecoes_pt530.py 
 ├──Papéis_de_Trabalho/                
-│   ├── PT_EC_Estrutura_Conceitual_TOTVS_2025.pdf 
-│   ├── PT_200_Objetivos_Gerais_TOTVS_2025.pdf 
-│   ├── PT_210_Termos_Trabalho_TOTVS_2025.pdf 
-│   ├── PT_220_Gestao_Qualidade_TOTVS_2025.pdf 
-│   ├── PT_240_Fraude_TOTVS_2025.pdf 
-│   ├── PT_250_Leis_Regulamentos_TOTVS_2025.pdf 
-│   ├── PT_260_Comunicacao_Governanca_TOTVS_2025.pdf 
-│   ├── PT-230-01_...docx 
-│   ├── PT-300-01_...docx 
-│   ├── PT-320_...                     ← materialidade 
-│   ├── PT-530_...                     ← amostragem 
-│   └── demais_PT_...                  ← conforme matriz de cobertura 
+│PT_EC_Estrutura_Conceitual_TOTVS_2025.pdf 
+│PT_200_Objetivos_Gerais_TOTVS_2025.pdf 
+│PT_210_Termos_Trabalho_TOTVS_2025.pdf 
+│PT_220_Gestao_Qualidade_TOTVS_2025.pdf 
+│PT_240_Fraude_TOTVS_2025.pdf 
+│PT_250_Leis_Regulamentos_TOTVS_2025.pdf 
+│PT_260_Comunicacao_Governanca_TOTVS_2025.pdf 
+│PT-230-01_...docx 
+│PT-300-01_...docx 
+│PT-320_...                     ← materialidade 
+│PT-530_...                     ← amostragem 
+│└── demais_PT_...                  ← conforme matriz de cobertura 
 ├── Planilhas/                        ←  
-│   ├── Conciliação_Intangível_TOTVS_2025.xlsx 
-│   ├── PT-520_Planilha_...xlsx 
-│   ├── PT-540_Planilha_...xlsx 
-│   ├── PT-570_Planilha_...xlsx 
-│   └── PT-600_Planilha_...xlsx 
-├── /   Fontes_Documentais.pdf 
+│Conciliação_Intangível_TOTVS_2025.xlsx 
+│PT-520_Planilha_...xlsx 
+│PT-540_Planilha_...xlsx 
+│PT-570_Planilha_...xlsx 
+│PT-600_Planilha_...xlsx 
+├──Fontes_Documentais.pdf 
 │    
 │    
 └── Bases_simuladas                 ←  
