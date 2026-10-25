@@ -28,7 +28,7 @@ As análises devem ser interpretadas conforme o status informado em cada PT:
 
 A pasta pública informada é Códigos. Como a listagem atual do GitHub não pôde ser conferida, a organização abaixo é proposta de padronização, não descrição verificada das pastas existentes. Se os arquivos estiverem em diretórios diferentes, ajuste os caminhos nos links. 
 
-AUD1_P2/ 
+```AUD1_P2/ 
 ├── README.md                        
 ├── Matriz_de_Cobertura_das_Normas_TOTVS_2025.docx 
 ├──Códigos/ 
@@ -58,7 +58,7 @@ AUD1_P2/
 │    
 │    
 └── Bases_simuladas                 ←  
-    └── LINKS_Bases_Simuladas.txt 
+    └── LINKS_Bases_Simuladas.txt ```
 
 A matriz de cobertura é o índice para localizar qual papel documenta cada NBC TA; a presença efetiva e a versão final dos arquivos precisam ser conferidas antes da entrega.  
 
